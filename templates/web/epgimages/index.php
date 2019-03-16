@@ -1,5 +1,5 @@
 <?php
-$epg_file = '/data/cache/images.data';
+$epg_file = '/data/cache/epg.data';
 $e = isset($_GET['e']) ? intval($_GET['e']) : false;
 
 if (!$e) {
