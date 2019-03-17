@@ -47,7 +47,6 @@ RUN git clone https://github.com/vdr-projects/vdr-plugin-streamdev.git vdr-$VDR_
 RUN git clone https://github.com/yavdr/vdr-plugin-restfulapi.git vdr-$VDR_VERSION/PLUGINS/src/restfulapi
 RUN git clone https://github.com/FernetMenta/vdr-plugin-vnsiserver.git vdr-$VDR_VERSION/PLUGINS/src/vnsiserver
 RUN git clone https://github.com/flensrocker/vdr-plugin-dummydevice vdr-$VDR_VERSION/PLUGINS/src/dummydevice
-RUN git clone https://github.com/flensrocker/vdr-plugin-noepg vdr-$VDR_VERSION/PLUGINS/src/noepg
 
 WORKDIR vdr-$VDR_VERSION
 

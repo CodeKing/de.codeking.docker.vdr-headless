@@ -67,12 +67,6 @@ echo "--log=${VDR_LOGLEVEL}" >> ${CONFDIR}/conf.d/00-vdr.conf
 # dummydevice configuration
 echo "[dummydevice]" > ${CONFDIR}/conf.d/20-dummydevice.conf
 
-# noEPG configuration
-mkdir -p ${CONFDIR}/plugins/noepg
-echo "[noepg]" > ${CONFDIR}/conf.d/50-noepg.conf
-echo "mode=whitelist" > ${CONFDIR}/plugins/noepg/settings.conf
-echo "S19.2E-1-1043-12503 // Eurosport 2 HD Xtra" >> ${CONFDIR}/plugins/noepg/settings.conf
-
 # EPGSearch configuration
 echo "[epgsearch]" > ${CONFDIR}/conf.d/50-epgsearch.conf
 
